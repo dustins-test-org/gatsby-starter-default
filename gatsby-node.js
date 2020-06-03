@@ -8,8 +8,15 @@
 exports.createPages = ({ actions }) => {
   const { createRedirect } = actions;
   createRedirect({
-    fromPath: "about",
-    toPath: "about-2",
+    fromPath: "/about",
+    toPath: "/about-2",
+    isPermanent: true,
+    force: true
+  });
+
+  createRedirect({
+    fromPath: "/about/",
+    toPath: "/about-2/",
     isPermanent: true,
     force: true
   });
