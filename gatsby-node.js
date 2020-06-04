@@ -22,8 +22,8 @@ exports.createPages = ({ actions }) => {
   });
 
   createRedirect({
-    fromPath: "/about-all/",
-    toPath: "/about-2/",
+    fromPath: "/about-all",
+    toPath: "/about-2",
     statusCode: 200
   });
 };
