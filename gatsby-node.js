@@ -20,4 +20,10 @@ exports.createPages = ({ actions }) => {
     isPermanent: true,
     force: true
   });
+
+  createRedirect({
+    fromPath: "/about-all/",
+    toPath: "/about-2/",
+    statusCode: 200
+  });
 };
