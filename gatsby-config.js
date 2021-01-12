@@ -13,7 +13,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `abhi-plugin-fastly`,
+    `gatsby-plugin-gatsby-cloud`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
